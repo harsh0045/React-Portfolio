@@ -74,7 +74,7 @@
 
 // export default Sidebar;
 import React, { useState, useEffect } from "react";
-import "./Sidebar.css";
+import "./sidebar.css";
 
 const sidebarData = [
   { id: "home", name: "Home", icon: "icon-home" },
