@@ -12,7 +12,7 @@ import Contact from './components/contact/Contact';
 
 import Skills from './components/skills/Skills';
 import Experience from './components/Experience/Experience';
-import Toggle from './components/Toggle/toggle';
+import Toggle from './components/Toggle/Toggle';
 
 export function App() {
   return (

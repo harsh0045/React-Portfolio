@@ -1,5 +1,5 @@
 
-import React, { useEffect, useRef, useState } from "react";
+import React, { useEffect, useState } from "react";
 
 import "./Toggle.css";
  import Moon from "../../assets/Moon.svg";
