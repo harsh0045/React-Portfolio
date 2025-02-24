@@ -1,8 +1,8 @@
 import React from 'react'
 import "./home.css";
-import Me from "../../assets/avtar.png"
+import Me from "/assets/avtar.png"
 import HeaderSocials from './HeaderSocials';
-import Scrolldown from './Scrolldown';
+
 import Shapes from './Shapes';
 import { Typewriter } from 'react-simple-typewriter'
 import HeaderCoding from './HeaderCoding';

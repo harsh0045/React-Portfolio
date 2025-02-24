@@ -2,9 +2,10 @@
 import React, { useEffect, useState } from "react";
 
 import "./Toggle.css";
- import Moon from "../../assets/Moon.svg";
-import Sun from "../../assets/Sun.svg";
 
+
+import Moon from "/assets/Moon.svg"
+import Sun from "/assets/Sun.svg";
 const Toggle = ({ children }) => {
   
    const [dark, setDark] = useState(false); // Use boolean for dark mode
