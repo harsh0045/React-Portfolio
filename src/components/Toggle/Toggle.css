@@ -1,0 +1,16 @@
+.dl_dec{
+    position:fixed;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    background-color:white;
+    right:5%;
+    top:5%;
+    width:45px;
+    height:45px;
+    z-index:10;
+    border-radius:50%;
+}
+.dl_pos{
+    width:30px;
+}
