@@ -1,0 +1,49 @@
+/* Skills container */
+.skills-container {
+
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap; /* Allow wrapping */
+  gap: 1rem; /* Space between items (gap-x-8, gap-y-10) */
+}
+
+
+@media (min-width: 1024px) { /* lg breakpoint */
+  .skills-container {
+    gap: 1.5rem; /* Reduced vertical gap at larger breakpoints */
+  }
+}
+
+/* Individual skill item */
+.skill-item {
+  display: flex;
+  flex-direction:column;
+  align-items: center; /* Center items vertically */
+  justify-content: space-between; /* Center items horizontally */
+   /* Arrange image and text vertically */
+  gap: 0.75rem; /* Space between items (gap-x-3) */
+  border: 1px solid #f87171;
+  background-color: var(--container-color);
+  box-shadow: var(--shadow);
+  border-radius: var(--border-radius);  /* Light gray background (bg-zinc-200) */
+  padding: 10px 20px; /* Padding (px-5, py-2) */
+}
+
+@media (min-width: 1024px) { /* lg breakpoint */
+  .skill-item {
+    padding:10px 20px; /* Adjust padding at larger breakpoints */
+  }
+}
+
+/* Image styling */
+.skill-image {
+  width: 70px; /* Fixed width (w-[40px]) */
+  height: auto;
+  border-radius:30%; /* Maintain aspect ratio (h-auto) */
+}
+
+/* Paragraph styling */
+.skill-text {
+  font-size: 0.875rem; /* Small text size (text-sm) */
+  color: var( --text-color); /* Medium gray color (text-gray-600) */
+}
