@@ -5,68 +5,68 @@ const Skills = () => {
     const skillsData = [
         {
             name: "Ai",
-            icon: '/assets/skills/ai.png'
+            icon: '/skills/ai.png'
         },
         {
             name: "HTML",
-            icon: '/assets/skills/html.png'
+            icon: '/skills/html.png'
         },
         {
             name: "CSS",
-            icon: '/assets/skills/css.png'
+            icon: '/skills/css.png'
         },
         {
             name: "Tailwind",
-            icon: '/assets/skills/tailwind.png'
+            icon: '/skills/tailwind.png'
         },
         {
             name: "Javascript",
-            icon: '/assets/skills/js.png'
+            icon: '/skills/js.png'
         },
         {
             name: "Figma",
-            icon: '/assets/skills/figma.png'
+            icon: '/skills/figma.png'
         },
         {
             name: "React",
-            icon: '/assets/skills/react.png'
+            icon: '/skills/react.png'
         },
         {
             name: "Vite",
-            icon: '/assets/skills/vite.png'
+            icon: '/skills/vite.png'
         },
         {
             name: "Nodejs",
-            icon: '/assets/skills/nodejs.png'
+            icon: '/skills/nodejs.png'
         },
         {
             name: "MongoDB",
-            icon: '/assets/skills/mongodb.png'
+            icon: '/skills/mongodb.png'
         },
         {
             name: "Nextjs",
-            icon: '/assets/skills/next.png'
+            icon: '/skills/next.png'
         },
         {
             name: "Prisma",
-            icon: '/assets/skills/prisma.png'
+            icon: '/skills/prisma.png'
         },
         {
             name: "Postgres",
-            icon: '/assets/skills/postgres.png'
+            icon: '/skills/postgres.png'
         },
 
         {
             name: "Github",
-            icon: '/assets/skills/github.png'
+            icon: '/skills/github.png'
         },
         {
             name: "VSCode",
-            icon: '/assets/skills/vscode.png'
+            icon: '/skills/vscode.png'
         },
         {
             name: "Postman",
-            icon: '/assets/skills/postman.png'
+            icon: '/skills/postman.png'
         }
     ]
     const variants = {
