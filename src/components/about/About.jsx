@@ -11,7 +11,7 @@ const About = () => {
       title: "Codeforces-Ratings",
       path: "https://codeforces.com/profile/harshu_45",
       amount: 1203,
-      src:"src/assets/cp2.png",
+      src:"/assets/cp2.png",
       h:"25",
       w:"25",
 
@@ -21,7 +21,7 @@ const About = () => {
       title: "LeetCode-Ratings",
       path: "https://leetcode.com/harsh_45", // Use emoji, icon class, or an SVG/React component
       amount: 1703 ,
-      src:"src/assets/leetcode.png",
+      src:"/assets/leetcode.png",
       h:"30",
       w:"30",
     },
@@ -30,7 +30,7 @@ const About = () => {
       title: "Published-Article",
       path: "https://www.geeksforgeeks.org/user/harsh_45/" ,
       amount: 11,
-      src:"src/assets/gfg2.svg" ,
+      src:"/assets/gfg2.svg" ,
       h:"30",
       w:"30",
     },
@@ -40,7 +40,7 @@ const About = () => {
       title: "Successful-Projects",
       path: "https://github.com/harsh0045", // Use emoji, icon class, or an SVG/React component
       amount: 12,
-      src:"src/assets/github.png",
+      src:"/assets/github.png",
       h:"50",
       w:"50",
     },
@@ -90,7 +90,7 @@ const About = () => {
       <h2 className="section__title">About Me</h2>
       <div className="grid-container">
         <div className="item1">
-          <img src="/src/assets/about-me.png" className="about-img" />
+          <img src="/assets/about-me.png" className="about-img" />
         </div>
         <div className="item2 about__data">
           <p className="about__description">

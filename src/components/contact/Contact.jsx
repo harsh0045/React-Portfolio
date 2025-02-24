@@ -76,7 +76,7 @@ const Contact = () => {
             <i class="fa-brands fa-instagram"></i>  
             </a>
         </div>
-        <img src="src\assets\contact-unscreen.gif" alt="contact-image" />
+        <img src="/assets/contact-unscreen.gif" alt="contact-image" />
        </div>
        
         <form ref={form} onSubmit={sendEmail} className="contact__form">
