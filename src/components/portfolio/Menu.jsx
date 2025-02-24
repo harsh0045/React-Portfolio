@@ -1,7 +1,7 @@
 
 import Work1 from "../../assets/Work1.png";
 import Work2 from "../../assets/Work2.png";
-import Work3 from "../../assets/work3.png";
+import Work3 from "../../assets/Work3.png";
 
 const Menu = [
   {
