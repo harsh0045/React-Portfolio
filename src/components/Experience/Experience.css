@@ -1,0 +1,189 @@
+/* Container styling */
+
+
+/* Experience content styling */
+  #experience{
+    position:relative;
+   
+  }
+  
+  .card-title {
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: var(--text-color);
+  }
+  
+  .experience-img {
+    height: 30px;
+    width: auto;
+    margin-top:-4px;
+  }
+  
+.experience-content {
+  position:relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  width: 100%;
+  
+}
+
+/* Card styling */
+.experience-card {
+  position: relative;
+  width: 350px;
+  max-width: 480px;
+  padding: 20px;
+  border: 1px solid #f87171;
+  background-color: var(--container-color);
+  box-shadow: var(--shadow);
+  border-radius: var(--border-radius);
+  text-align: left;
+}
+
+.experience-card-left {
+  left: -250px;
+}
+
+.experience-card-right {
+  left: 250px;
+}
+
+/* Content inside the card */
+.card-content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+
+
+.card-education,
+.card-experience {
+  font-size: 1rem;
+  color: var(--text-color);
+}
+.arrow-icon {
+  position: absolute;
+  top: 18%;
+  transform: translateY(-50%) ;
+  
+  font-size: 1.5rem;
+  color: #f87171;
+}
+.circle-left{
+    
+   left:calc(100% + 3.2rem) ;
+}
+.circle-right{
+  right:calc(100% + 3.2rem);
+}
+.arrow-left {
+    left: 100%; /* Adjust position for left arrows */
+  }
+  
+  /* Right arrow positioning and rotation */
+  .arrow-right {
+    right: 100%; /* Adjust position for right arrows */
+    transform: translateY(-50%) rotate(180deg); /* Flip the arrow */
+  }
+.label {
+  display: block;
+  font-weight: 300;
+  color: var(--text-color);
+}
+
+.value {
+  display: block;
+  padding-left: 8px;
+  font-weight: 200;
+  color: var(--text-color);
+}
+
+.experience-list {
+  padding-left: 20px;
+}
+
+.experience-item {
+  margin: 5px 0;
+  font-weight: 200;
+  color: var(--text-color);
+}
+.origin-top{
+  transform-origin:top;
+}
+ .timeline-line {
+  position: absolute;
+  width: 2px;
+  height: 100%;
+  box-shadow: var(--shadow);
+  background-color: #f87171;
+}
+
+.timeline-circle {
+  position: absolute;
+  top:10%;
+  width: 50px;
+  height: 50px;
+  background-color: var(--container-color);
+  box-shadow: var(--shadow);
+  border: 1px solid #f87171;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-color);
+  font-size: 0.9rem;
+  font-weight: 300;
+  z-index:2;
+}
+
+@media screen and (max-width: 876px) {
+  /* Your styles for screens 1182px and below */
+  .experience-content{
+    gap:60px;
+  }
+  .circle-left{
+     left:90%;
+     top:-1%;
+  }
+  .circle-right{
+    left:90%;
+     top:-1%;
+  }
+  .timeline-circle{
+    color: #fff;
+    height:30px;
+    border-radius:0;
+    background-color: var(--first-color);
+    border-bottom-left-radius: 0.98rem;
+    border-bottom-right-radius: 0.98rem;
+    left:80%;
+    top:0.1%;
+    font-size: var(--small-font-size);
+    transition: 0.3s;
+    
+  }
+  .arrow-icon {
+      display:none;
+      /* Add other responsive styles here */
+  }
+  .experience-card-left,.experience-card-right {
+    left: 0;
+    z-index:3;
+  }
+  .experience-content{
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .experience-card {
+    width: 300px;
+    max-width: 350px;
+  }
+}
+
