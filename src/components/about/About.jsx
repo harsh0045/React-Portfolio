@@ -99,7 +99,7 @@ const About = () => {
             I'm Harsh, a Fullstack developer passionate about building modern, high-performing web applications. I specialize in React.js, Next.js, Tailwind CSS, TypeScript, Prisma, and SQL, creating sleek and user-friendly interfaces. I use MongoDB & PostgreSQL for robust database management, Zustand for smooth state handling, and Figma for designing intuitive UI/UX. For hassle-free deployment, I rely on Vercel, ensuring speed and scalability. Always eager to learn and improve, I strive to craft seamless digital experiences.
           </p>
           <a
-            href="/harshresume.pdf"
+            href="/assets/harshresume.pdf"
             download="harshresume.pdf"
             className="btn"
             target="_blank"
